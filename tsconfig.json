@@ -1,0 +1,22 @@
+{
+	"compilerOptions": {
+		"lib": ["DOM", "ESNext"],
+		"target": "ESNext",
+		"module": "ESNext",
+		"esModuleInterop": true,
+		"outDir": "./www/js",
+		"declarationDir": "./www/decl",
+		"noUnusedLocals": true,
+		"noImplicitReturns": true,
+		"allowUnreachableCode": false,
+		"forceConsistentCasingInFileNames": true,
+		"strict": true,
+		"declarationMap": true,
+		"declaration": true,
+		"sourceMap": true,
+		"pretty": true,
+		"removeComments": true
+	},
+	"exclude": ["dist", "node_modules"],
+	"include": ["src/**/*"]
+}

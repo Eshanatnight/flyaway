@@ -1,0 +1,29 @@
+{
+  "name": "com.site",
+  "version": "1.0.0",
+  "description": "a mobile app of my portfolio with cordova",
+  "main": "src/index.ts",
+  "scripts": {
+    "build": "npm run compile && npx cordova clean",
+    "clean": "npx cordova build",
+    "compile": "tsc -p ."
+  },
+  "keywords": [
+    "Android",
+    "IOS",
+    "Mobile"
+  ],
+  "author": "Eshanatnight",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/cordova": "^11.0.1",
+    "@types/node": "^20.6.2",
+    "cordova": "^12.0.0",
+    "cordova-android": "^12.0.1"
+  },
+  "cordova": {
+    "platforms": [
+      "android"
+    ]
+  }
+}
